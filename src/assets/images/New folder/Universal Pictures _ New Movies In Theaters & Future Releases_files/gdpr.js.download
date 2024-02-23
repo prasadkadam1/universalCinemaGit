@@ -1,0 +1,38 @@
+var nbcu_gdpr_country = "IN";
+var nbcu_gdpr_continent = "AS";
+var nbcu_gdpr_countries = [
+    'AT',
+    'BE',
+    'BG',
+    'HR',
+    'CY',
+    'CZ',
+    'DK',
+    'EE',
+    'FI',
+    'FR',
+    'DE',
+    'GR',
+    'HU',
+    'IE',
+    'IT',
+    'LV',
+    'LT',
+    'LU',
+    'MT',
+    'NL',
+    'PL',
+    'PT',
+    'RO',
+    'SK',
+    'SI',
+    'ES',
+    'SE',
+    'CH',
+    'GB',
+    'IS',
+    'LI',
+    'NO'
+];
+
+var is_eu = (nbcu_gdpr_countries.indexOf(nbcu_gdpr_country) > -1);
