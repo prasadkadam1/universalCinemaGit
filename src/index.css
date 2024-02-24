@@ -11,8 +11,45 @@
 }
 
 #mainDivImg {
-  background-image: url(../src//assets/images/argylle.jpg);
+  background-image: url(../src/assets/images/mainImg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+}
+
+
+#rightMain::-webkit-scrollbar {
+  display: none;
+}
+
+#rightMainDiv:hover {
+  background-color: black;
+}
+
+#oppenheimer {
+  background-image: url(../../../react/universalCinema/src/assets/images/oppenheimerImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #mainBody2Topright {
+  background-image: url(../../universalCinema/src/assets/images/fallGuyTrailer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#ted {
+  background-image: url(../../universalCinema/src/assets/images/fallGuyTrailer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#voice {
+  background-image: url(../../universalCinema/src/assets/images/voice.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
